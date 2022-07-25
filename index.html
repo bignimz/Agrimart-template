@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgriPlus | Fresh Food All The Time</title>
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <!-- Fontawesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header Section Start -->
+    <!-- Navbar Section Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand me-5" href="#">AgriMart</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+
+          <div class="auth mx-3">
+            <button class="btn btn-outline-success px-4" type="submit">
+              <i class="fa-solid fa-arrow-right-to-bracket"></i> Login
+            </button>
+            <button class="btn btn-success px-4 mx-3" type="submit">
+              <i class="fa-solid fa-user-plus"></i> Signup
+            </button>
+            <button
+              type="button"
+              class="btn"
+              data-toggle="modal"
+              data-target="#exampleModal"
+            >
+              <i class="fa-solid fa-cart-arrow-down fs-4"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Section end -->
+
+    <!-- Hero Section Start -->
+    <section class="hero">
+      <div
+        class="hero-wrapper container row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1-row-reverse"
+      >
+        <div class="hero-content text-white col-md-12">
+          <h1 class="h1 fs=2">
+            Buying and selling quality farm produce has never been easier
+          </h1>
+          <p class="hero-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate
+            iure, iste mollitia pariatur dignissimos quisquam delectus eligendi
+            tempora rerum dolorem maiores excepturi fugit ad inventore!
+          </p>
+          <button class="btn btn-lg agri-btn">Explore More</button>
+        </div>
+        <!-- Hero Image -->
+        <div class="hero-image col-md-5 col-sm-10 d-none d-lg-block">
+          <img src="/assets/images/image 2.png" alt="" class="img-fluid" />
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+    <div
+      class="float-counter text-center shadow-lg row row-cols-1 row-cols-md-3 row-cols-sm-1"
+      style="min-width: 50%"
+    >
+      <div class="block col-sm-10 col-10">
+        <i class="fa-solid fa-people-arrows-left-right mb-3 fs-2"></i>
+        <h3 class="b-title">200+</h3>
+        <h3 class="b-title">Verified Vendors</h3>
+      </div>
+      <div class="block col-sm-10 col-10">
+        <i class="fa-solid fa-people-line mb-3 fs-2"></i>
+        <h3 class="b-title">105+</h3>
+        <h3 class="b-title">Happy Customers</h3>
+      </div>
+      <div class="block col-sm-10 col-10">
+        <i class="fa-solid fa-people-group mb-3 fs-2"></i>
+        <h3 class="b-title">2000+</h3>
+        <h3 class="b-title">Nation Wide Customers</h3>
+      </div>
+    </div>
+    <!-- Header Section End -->
+
+    <main class="main">
+      <div class="container">
+        <!-- Why Section -->
+        <div class="why-wrapper row row-cols-lg-2 row-cols-md row-cols-sm-1">
+          <div class="why-content col-md-5">
+            <h2 class="why-title mb-3">Why we exist!</h2>
+            <div class="hr"></div>
+            <p class="why-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
+              quia. Beatae sint modi quae voluptates ut eius impedit pariatur
+              enim molestiae officiis tempora, molestias odio ducimus dolore
+              adipisci iusto facere recusandae rerum minima reiciendis. Soluta
+              quo harum saepe dolorum fuga fugit esse animi. Eius, odio
+              veritatis esse consequuntur quisquam temporibus?
+            </p>
+          </div>
+          <div class="why-img col-md-5 sm-d-none">
+            <img class="img-fluid" src="/assets/images/image 3.png" alt="" />
+          </div>
+        </div>
+
+        <!-- Products categories section -->
+        <div class="prod-cat text-center my-5">
+          <h3 class="prod-cat-title mb-3">Our categories of products</h3>
+          <div class="hr cat"></div>
+          <p class="cat-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+            voluptatibus dolorum nesciunt earum modi unde, beatae minima quaerat
+            dolores mollitia.
+          </p>
+        </div>
+        <!-- Products -->
+        <div class="products-section py-5">
+          <h3 class="prod-sec-heading mb-4">Most Popular</h3>
+          <div class="hr"></div>
+          <div
+            class="products-wrapper row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 row-cols-1"
+          >
+            <!-- Product card -->
+            <div class="product-card col-md-2 col-sm-5 mx-auto">
+              <img
+                src="/assets/images/Rectangle 5.png"
+                alt=""
+                class="img-fluid mb-3"
+              />
+              <p class="product-name mb-2">Fresh Carrots</p>
+              <p class="desc mb-2">Kinyanjui Farmers Association</p>
+              <p class="price mb-3">Ksh 210/Kg</p>
+            </div>
+            <!-- Product card -->
+            <div class="product-card col-md-2 col-sm-5 mx-auto">
+              <img
+                src="/assets/images/image 4.png"
+                alt=""
+                class="img-fluid mb-3"
+              />
+              <p class="product-name mb-2">Cereals</p>
+              <p class="desc mb-2">Kenya Cereals & Produce Board</p>
+              <p class="price mb-3">Ksh 5000/bag</p>
+            </div>
+            <!-- Product card -->
+            <div class="product-card col-md-2 col-sm-5 mx-auto">
+              <img
+                src="/assets/images/image 5.png"
+                alt=""
+                class="img-fluid mb-3"
+              />
+              <p class="product-name mb-2">Fresh Fish/Tilapia</p>
+              <p class="desc mb-2">Mr. Otieno</p>
+              <p class="price mb-3">Ksh 500/Kg</p>
+            </div>
+            <!-- Product card -->
+            <div class="product-card col-md-2 col-sm-5 mx-auto">
+              <img
+                src="/assets/images/image 6.png"
+                alt=""
+                class="img-fluid mb-3"
+              />
+              <p class="product-name mb-2">Fresh Carrots</p>
+              <p class="desc mb-2">Kinyanjui Farmers Association</p>
+              <p class="price mb-3">Ksh 210/Kg</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Newest Products -->
+        <div class="products-section py-5">
+          <h3 class="prod-sec-heading mb-4">Newest Item</h3>
+          <div class="hr"></div>
+          <div
+            class="products-wrapper row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 row-cols-1"
+          >
+            <!-- Product card -->
+            <div class="product-card col-md-2 col-sm-5 mx-auto">
+              <img
+                src="/assets/images/Rectangle 6.png"
+                alt=""
+                class="img-fluid mb-3"
+              />
+              <p class="product-name mb-2">Kienyeji Chicken</p>
+              <p class="desc mb-2">Wafula Farm</p>
+              <p class="price mb-3">Ksh 700</p>
+            </div>
+            <!-- Product card -->
+            <div class="product-card col-md-2 col-sm-5 mx-auto">
+              <img
+                src="/assets/images/Rectangle 7.png"
+                alt=""
+                class="img-fluid mb-3"
+              />
+              <p class="product-name mb-2">Ahero Rice</p>
+              <p class="desc mb-2">Ahero Cereals Board</p>
+              <p class="price mb-3">Ksh 200</p>
+            </div>
+            <!-- Product card -->
+            <div class="product-card col-md-2 col-sm-5 mx-auto">
+              <img
+                src="/assets/images/Rectangle 9.png"
+                alt=""
+                class="img-fluid mb-3"
+              />
+              <p class="product-name mb-2">Fresh Tomatoes</p>
+              <p class="desc mb-2">TZ Farmers Association</p>
+              <p class="price mb-3">Ksh 5000/crate</p>
+            </div>
+            <!-- Product card -->
+            <div class="product-card col-md-2 col-sm-5 mx-auto">
+              <img
+                src="/assets/images/Rectangle 8.png"
+                alt=""
+                class="img-fluid mb-3"
+              />
+              <p class="product-name mb-2">Mursik</p>
+              <p class="desc mb-2">Korir Dairy Farm</p>
+              <p class="price mb-3">Ksh 200/ltr</p>
+            </div>
+          </div>
+        </div>
+        <a href="" class="more-link">
+          <h3 class="see-all float-end">See All</h3>
+          <div class="hr hr2 float-end"></div>
+        </a>
+      </div>
+    </main>
+    <div class="separator my-5"></div>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section container py-5">
+      <h3 class="tt mb-3">What users say about AgriMart</h3>
+      <div class="hr"></div>
+      <div
+        class="tt-wrapper mt-5 row row-cols-lg-4 row-cols-md-2 row-cols-sm-1"
+      >
+        <!-- Testimonial card -->
+        <div
+          class="tt-card p-5 col-md-5 mx-auto mb-3 col-sm-10 shadow-lg rounded"
+        >
+          <div class="ratings mb-5">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="comment mb-4">
+            <h4>"The most efficient way to order fresh farm produce"</h4>
+          </div>
+          <div class="author d-flex justify-content-between">
+            <img
+              src="/assets/images/Rectangle 11.png"
+              alt=""
+              class="img-fluid"
+              style="max-width: 40px"
+            />
+            <p>Rebecca Mkulima</p>
+          </div>
+        </div>
+        <!-- Testimonial card -->
+        <div
+          class="tt-card p-5 col-md-5 mx-auto mb-3 col-sm-10 shadow-lg rounded"
+        >
+          <div class="ratings mb-5">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="comment mb-4">
+            <h4>"The most efficient way to order fresh farm produce"</h4>
+          </div>
+          <div class="author d-flex justify-content-between">
+            <img
+              src="/assets/images/Rectangle 11.png"
+              alt=""
+              class="img-fluid"
+              style="max-width: 40px"
+            />
+            <p>Rebecca Mkulima</p>
+          </div>
+        </div>
+        <!-- Testimonial card -->
+        <div
+          class="tt-card p-5 col-md-5 mx-auto mb-3 col-sm-10 shadow-lg rounded"
+        >
+          <div class="ratings mb-5">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="comment mb-4">
+            <h4>"The most efficient way to order fresh farm produce"</h4>
+          </div>
+          <div class="author d-flex justify-content-between">
+            <img
+              src="/assets/images/Rectangle 11.png"
+              alt=""
+              class="img-fluid"
+              style="max-width: 40px"
+            />
+            <p>Rebecca Mkulima</p>
+          </div>
+        </div>
+        <!-- Testimonial card -->
+        <div
+          class="tt-card p-5 col-md-5 mx-auto mb-3 col-sm-10 shadow-lg rounded"
+        >
+          <div class="ratings mb-5">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="comment mb-4">
+            <h4>"The most efficient way to order fresh farm produce"</h4>
+          </div>
+          <div class="author d-flex justify-content-between">
+            <img
+              src="/assets/images/Rectangle 11.png"
+              alt=""
+              class="img-fluid"
+              style="max-width: 40px"
+            />
+            <p>Rebecca Mkulima</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscription Section -->
+    <section class="subscription bg-dark py-5">
+      <h3 class="text-center mb-4">Stay informed with latest updates</h3>
+      <p class="text-center mb-5 fs-5">Subscribe to our newsletters</p>
+      <form class="d-flex mx-auto" style="max-width: 600px">
+        <input
+          class="sub-input me-2"
+          type="email"
+          placeholder="Enter email"
+          aria-label="Email"
+        />
+        <button class="btn-success sub-btn" type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 g-3">
+          <div class="col-lg-3 col-md-5 col-sm-8 mx-auto">
+            <h2 class="mb-4 f-title">AgriMart</h2>
+            <div class="hr-2 mb-3"></div>
+            <p class="fs-5 mb-4">
+              Quality farm produce through buying and selling
+            </p>
+            <i class="fa-brands fa-twitter-square"></i>
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-8 mx-auto">
+            <h3 class="mb-4 f-title">Comapny</h3>
+            <div class="hr-2 mb-3"></div>
+            <div class="footer-navs">
+              <a href="#" class="footer-link mb-3">About</a>
+              <a href="#" class="footer-link mb-3">Products</a>
+              <a href="#" class="footer-link mb-3">Contact us</a>
+              <a href="#" class="footer-link mb-3">Careers</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-8 mx-auto">
+            <h3 class="mb-4 f-title">Product Types</h3>
+            <div class="hr-2 mb-3"></div>
+            <div class="footer-navs">
+              <a href="#" class="footer-link mb-3">Dairy</a>
+              <a href="#" class="footer-link mb-3">Cereals</a>
+              <a href="#" class="footer-link mb-3">Fruits & Vegetables</a>
+              <a href="#" class="footer-link mb-3">Poultry</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-8 mx-auto">
+            <h3 class="mb-4 f-title">Resources</h3>
+            <div class="hr-2 mb-3"></div>
+            <div class="footer-navs">
+              <a href="#" class="footer-link mb-3">FAQs</a>
+              <a href="#" class="footer-link mb-3">Terms Of Service</a>
+              <a href="#" class="footer-link mb-3">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <section class="copyright container mt-5">
+        <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1">
+          <p class="fs-5 mb-3 col-sm-10 mx-auto">
+            &copy; Copyright 2022 Agrimart. All rights reserved
+          </p>
+          <p class="dev-author col-sm-10 mx-auto">
+            Developed by: Nimrod Musungu
+          </p>
+        </div>
+      </section>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
