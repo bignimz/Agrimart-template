@@ -41,7 +41,7 @@
 .hero {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(1,1,1,.3), rgba(2,2,2,.4)), url(assets/images/agri_organic_kenya.jpg);
+    background-image: linear-gradient(to bottom, rgba(1,1,1,.3), rgba(2,2,2,.4)), url('https://cdn.downtoearth.org.in/library/large/2018-06-01/0.69336200_1527834121_kenya.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
