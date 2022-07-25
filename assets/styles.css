@@ -41,7 +41,7 @@
 .hero {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(1,1,1,.3), rgba(2,2,2,.4)), url('/assets/images/agri_organic_kenya.jpg');
+    background-image: linear-gradient(to bottom, rgba(1,1,1,.3), rgba(2,2,2,.4)), url(/assets/images/agri_organic_kenya.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
